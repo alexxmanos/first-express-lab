@@ -53,7 +53,7 @@ app.get('/magic/Will%20I%20Be%20A%20Millionaire', (req, res) => {
     
     
     
-    res.send('<h1>Will I Be A Millionaire?'$(magic8BallResponses))
+  res.send(`<h1>Will I Be A Millionaire? ${magic8BallResponses[randIdx]}</h1>`);
 })
 
 
